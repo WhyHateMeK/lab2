@@ -18,3 +18,9 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+double calculateSquareRoot(double number) {
+    if (number < 0) {
+        return -1; // Return -1 for invalid input
+    }
+    return sqrt(number);
+}
